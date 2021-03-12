@@ -1,0 +1,96 @@
+html{
+    font-size: 100%; /*по умолчанию 16px*/
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+
+}
+.header{
+    background: url(../images/bg_header.png) center/cover no-repeat;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.container{
+    width: inherit;
+    padding: 3rem 6.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.curtain{
+    background-color: rgba(209, 198, 177, 0.729);
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    max-width: 515px;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav__item{
+    text-decoration: none;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: rgb(22, 22, 22);
+    border-radius: 5px;    
+}
+.nav__item:hover{
+    background-color: rgb(208, 57, 88);
+    color: rgb(255, 255, 255);
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.col__title{
+    margin: 10rem 0;
+    max-width: 520px;
+    max-height: 270px;
+}
+.title{
+    margin: 0 0 40px;
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 0.889;
+    color: rgb(208, 57, 88);
+}
+.subtitle{
+    font: 1.15rem "PT Serif", serif;
+    color: rgb(22, 22, 22);
+    line-height: 1.4;
+}
+    .Lorem_Ipsum_is_simply_dummy_text_of_the_printin {
+        font-size: 20px;
+        font-family: "PT Serif";
+        color: rgb(22, 22, 22);
+        line-height: 1.4;
+      }
+      
+.TRAVEL_IS_BEAUTIFUL {
+    font-size: 90px;
+    font-family: "Montserrat";
+    color: rgb(208, 57, 88);
+    font-weight: bold;
+    line-height: 0.889;
+    text-align: left;
+    position: absolute;
+    left: 114.003px;
+    top: 337.501px;
+    width: 520px;
+    height: 145px;
+    z-index: 19;
+  }
+
+    
