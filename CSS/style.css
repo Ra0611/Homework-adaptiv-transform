@@ -1,96 +1,135 @@
-html{
-    font-size: 100%; /*по умолчанию 16px*/
+html {
+    font-size: 125%;
+    /*на макете font-size=20px (по умолчанию 16px)*/
+    height: 100%;
 }
-body{
-    margin: 0 auto;
-    padding: 0;
-    font-family: "Montserrat", sans-serif;
 
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
-.header{
-    background: url(../images/bg_header.png) center/cover no-repeat;
+
+.wrapper {
     max-width: 1200px;
     margin: auto;
+}
+
+.header {
+    background: url(../images/bg_header.png) center/cover no-repeat;
     padding-bottom: 10px;
 }
-.container{
-    width: inherit;
-    padding: 3rem 6.5rem 0;
+
+.container {
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding: 2.4rem 4.85rem 0;
 }
-.curtain{
-    background-color: rgba(209, 198, 177, 0.729);
+
+.curtain {
+    background-color: rgba(209, 198, 177, 0.729);    
 }
-.row{
+
+.row {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
+
+.logo img{
+    width: 100%;
+}
+
 .nav{
-    max-width: 515px;
+    margin-right: -20px;
 }
-.nav__list{
+@media (max-width:768px) {
+    .nav {
+        width: 100%;
+        background-color: rgba(98, 93, 83, 0.729);
+    }
+    .nav__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+    }
+    .nav__burger::after,
+    .nav__burger::before {
+        content: "";
+        background: rgb(22, 22, 22);
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+    }
+    .nav__burger::after {
+        bottom: 0;
+    }
+    .nav__burger::before {
+        top: 0;
+    }
+    .nav__burger span {
+        position: absolute;
+        background-color: rgb(22, 22, 22);
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+    }
+}
+
+.nav__list {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
 }
-.nav__item{
+
+.nav__item {
+    padding: 0.65rem 0.75rem;
     text-decoration: none;
-    padding: 0.8rem 1rem;
-    font-size: 1rem;
-    font-weight: normal;
+    font-size: 0.9rem;
     text-transform: uppercase;
     color: rgb(22, 22, 22);
-    border-radius: 5px;    
+    border-radius: 5px;
 }
-.nav__item:hover{
+
+.nav__item:hover {
     background-color: rgb(208, 57, 88);
     color: rgb(255, 255, 255);
 }
-.col{
+
+.col {
     display: flex;
     flex-direction: column;
 }
-.col__title{
-    margin: 10rem 0;
-    max-width: 520px;
-    max-height: 270px;
+
+.col__title {
+    margin: 7.5rem 0;
+    width: 49.5%;
+    max-height: 22.5%;
 }
-.title{
-    margin: 0 0 40px;
-    font-size: 5rem;
+
+.title {
+    margin: 0 0 2.5rem;
+    font-size: 4.5rem;
     font-weight: bold;
     line-height: 0.889;
     color: rgb(208, 57, 88);
 }
-.subtitle{
-    font: 1.15rem "PT Serif", serif;
+
+.title-color {
+    color: rgb(22, 22, 22);
+}
+
+.subtitle {
+    margin-top: 0;
+    font: 1rem "PT Serif", serif;
     color: rgb(22, 22, 22);
     line-height: 1.4;
 }
-    .Lorem_Ipsum_is_simply_dummy_text_of_the_printin {
-        font-size: 20px;
-        font-family: "PT Serif";
-        color: rgb(22, 22, 22);
-        line-height: 1.4;
-      }
-      
-.TRAVEL_IS_BEAUTIFUL {
-    font-size: 90px;
-    font-family: "Montserrat";
-    color: rgb(208, 57, 88);
-    font-weight: bold;
-    line-height: 0.889;
-    text-align: left;
-    position: absolute;
-    left: 114.003px;
-    top: 337.501px;
-    width: 520px;
-    height: 145px;
-    z-index: 19;
-  }
-
-    
