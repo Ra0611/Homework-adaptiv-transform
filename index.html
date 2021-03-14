@@ -30,13 +30,23 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="row">
+                <div class="row row__title">
                     <div class="col col__title">
                         <h1 class="title">TRAVEL IS <span class="title-color">BEAUTIFUL</span>
                         </h1>
                         <p class="subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                     </div>
-                    <div class="col"></div>
+                    <div class="col col__forms">
+                        <h3 class="col__forms__title">Request a quote</h3>
+                        <form class="col__forms_quote" action="#" method="GET">
+                            <input class="col__forms_item" placeholder="Full Name" type="text">
+                            <input class="col__forms_item" placeholder="E-mail Adress" type="mail">
+                            <input class="col__forms_item" placeholder="Phone Number" type="tel">
+                            <input class="col__forms_item" placeholder="Country" type="text">
+                            <p><input type="checkbox" name="accept" value="yes">I accept the terms & conditions</p>
+                            <button class="col__forms_item bg_dark" type="submit">SEND</button>
+                        </form>
+                    </div> 
                 </div>
             </div>
         </header>
@@ -45,19 +55,19 @@
                 <h2 class="main__title"></h2>
                 <div class="row">
                     <div class="main__col">
-                        <div class="col__icon"></div>
+                        <div class="col__icon"><img src="images/heart.png" alt="icon heart"></div>
                         <div class="col__content"></div>
                     </div>
                     <div class="main__col">
-                        <div class="col__icon"></div>
+                        <div class="col__icon"><img src="images/tools.png" alt="icon tools"></div>
                         <div class=".col__content"></div>
                     </div>
                     <div class="main__col">
-                        <div class="col__icon"></div>
+                        <div class="col__icon"><img src="images/lamp.png" alt="icon lamp"></div>
                         <div class="col__content"></div>
                     </div>
                     <div class="main__col">
-                        <div class="col__icon"></div>
+                        <div class="col__icon"><img src="images/compas.png" alt="icon compas"></div>
                         <div class="col__content"></div>
                     </div>
                 </div>
@@ -72,6 +82,7 @@
             </div>
         </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
