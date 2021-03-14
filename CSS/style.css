@@ -266,7 +266,31 @@ body {
     width: 100%;
     color: rgb(22, 22, 22);
     line-height: 1.4;
-    text-align: center;
-
-      
+    text-align: center;  
+}
+.footer{
+    width: 100%;
+    background-color: rgb(208, 57, 88);
+}
+.container__footer{
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+}
+.row__footer{
+    align-items: center;
+}
+.footer__content{
+    width: 63%;
+    font: 1rem "PT Serif", serif;
+    color: rgb(255, 255, 255);
+}
+.footer__link a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font: normal 1.1rem "Monserat", sans-serif;
+    color: rgb(22, 22, 22);
+    padding: 1.2rem 3.55rem;
+    border-radius: 5px;
+    background-color: rgb(227, 213, 184);
+    
 }
