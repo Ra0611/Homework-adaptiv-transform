@@ -405,27 +405,27 @@ body {
     }
 }
 
-.footer {
+.sidebar {
     width: 100%;
     background-color: rgb(208, 57, 88);
 }
 
-.container__footer {
+.container__sidebar {
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
 }
 
-.row__footer {
+.row__sidebar {
     align-items: center;
 }
 
-.footer__content {
+.sidebar__content {
     width: 63%;
     font: 1rem "PT Serif", serif;
     color: rgb(255, 255, 255);
 }
 
-.footer__link a {
+.sidebar__link a {
     text-decoration: none;
     text-transform: uppercase;
     font: normal 1.1rem "Monserat", sans-serif;
@@ -434,41 +434,41 @@ body {
     border-radius: 5px;
     background-color: rgb(227, 213, 184);
 }
+    /*еще немного эстетики*/
+    .sidebar__link a:hover {
+        box-shadow: 1px 1px 5px 5px rgba(22, 22, 22, 0.5);
+        font-weight: bold;
+    }
 
 @media screen and (max-width: 992px) {
-    .footer__content {
+    .sidebar__content {
         font: 0.8rem "PT Serif", serif;
     }
-    .footer__link a {
+    .sidebar__link a {
         font: normal 0.88rem "Monserat", sans-serif;
         padding: 0.9rem 2.5rem;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .footer {
+    .sidebar {
         background-color: rgb(224, 168, 56);
     }
-    .container__footer {
+    .container__sidebar {
         background-color: rgb();
     }
-    .row__footer {
+    .row__sidebar {
         flex-direction: column;
         align-items: center;
     }
-    .footer__content {
+    .sidebar__content {
         font: 1rem "PT Serif", serif;
     }
-    .footer__link {
+    .sidebar__link {
         margin-top: 50px;
     }
-    .footer__link a {
+    .sidebar__link a {
         font: normal 1.1rem "Monserat", sans-serif;
         padding: 1.2rem 3.55rem;
-    }
-    /*еще немного эстетики*/
-    .footer__link a:hover {
-        box-shadow: 1px 1px 5px 5px rgba(22, 22, 22, 0.5);
-        font-weight: bold;
     }
 }
